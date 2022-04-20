@@ -825,6 +825,16 @@ h4 {
     background-image: url("img/image-de-presentation.bmp");
 }
 
+.citation {
+    font-size: 19px;
+    color: rgba(0, 0, 0, .6);
+}
+
+.citation q {
+    font-style: italic;
+    color: rgba(0, 0, 0, .7);
+}
+
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
