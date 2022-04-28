@@ -1,0 +1,22 @@
+{
+    "name": "la_panthere_fevre_emeric",
+    "version": "1.0.0",
+    "description": "Projet 4 de la formation Développeur Web d'OpenClassRoom",
+    "main": "index.html",
+    "scripts": {
+      "prod": "minify css/style.css > css/style.min.css && minify css/bootstrap.css > css/bootstrap.min.css && minify css/et-line.css > css/et-line.min.css && minify css/font-awesome.css > css/font-awesome.min.css && minify js/bootstrap.js > js/bootstrap.min.js && minify js/blocs.js > js/blocs.min.js && minify js/formHandler.js > js/formHandler.min.js && minify js/gmaps.js > js/gmaps.min.js && minify js/jqBootstrapValidation.js > js/jqBootstrapValidation.min.js && minify js/jquery-2.1.0.js > js/jquery-2.1.0.min.js && minify js/jquery.touchSwipe.js > js/jquery.touchSwipe.min.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Xety/la-panthere.git"
+    },
+    "author": "Emeric Fevre",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/Xety/la-panthere/issues"
+    },
+    "homepage": "https://github.com/Xety/la-panthere#readme",
+    "dependencies": {
+      "minify": "^8.0.4"
+    }
+  }
